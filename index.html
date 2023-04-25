@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>Cryptocurrency Website</title>
+  </head>
+  <body>
+    <header>
+      <!-- NAVBAR -->
+      <nav>
+        <img src="img/logo.png" alt="" />
+        <ul>
+          <li><a href="#">HOMEPAGE</a></li>
+          <li><a href="#">PAGES</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">ROADMAP</a></li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">CONTACTS</a></li>
+        </ul>
+        <button>BUY TOKEN</button>
+      </nav>
+      <!-- HERO -->
+      <section>
+        <div class="content">
+          <h1 id="typing-container"></h1>
+          <p>
+            Cryotis it is Cryptocurrency ICO. Do not miss it! Shankle united
+            <br />
+            state short loin, high stake currency.
+          </p>
+          <button>SEE WHITEPAPER</button>
+        </div>
+        <div class="img_data">
+          <img src="img/Crypto Earth.png" alt="" />
+        </div>
+      </section>
+    </header>
+    <!-- ASIDE -->
+    <aside>
+      <h1>What is ICO Cryotis?</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro <br />
+        aspernatur earum voluptate, maxime voluptatum quis asperiores incidunt
+        dicta! <br />
+        Aut eligendi est necessitatibus architecto quia dolorem voluptates
+        tempora quod ducimus ipsa?
+      </p>
+      <img src="/img/grow line.png" alt="Grow" />
+      <div class="time">
+        <span
+          >30 <br />
+          <h6>DAYS</h6></span
+        >
+        <h5>:</h5>
+        <span
+          >30 <br />
+          <h6>HOURS</h6></span
+        >
+        <h5>:</h5>
+        <span
+          >30 <br />
+          <h6>MINUTES</h6></span
+        >
+        <h5>:</h5>
+        <span
+          >30 <br />
+          <h6>SECONDS</h6></span
+        >
+      </div>
+      <button>BUY TOKEN NOW</button>
+    </aside>
+    <!-- APP -->
+    <div class="app">
+      <div class="app_img_bx">
+        <img src="/img/Crypto App.png" alt="" />
+      </div>
+      <div class="app_content_bx">
+        <h1>Awesome App Wich Works For Your Business</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          laboriosam libero unde quis ullam iusto, sapiente possimus dicta quam
+          impedit reiciendis provident alias autem neque iure quisquam inventore
+          similique! Corporis, aut.
+        </p>
+        <img src="/img/All Store.png" alt="" />
+      </div>
+    </div>
+    <!-- CRYPTO CONVERTER -->
+    <div class="converter">
+      <h1>Crypto Converter</h1>
+    </div>
+    <script src="app.js"></script>
+
+    <script>
+      const outputH1 = document.getElementById('typing-container');
+
+      const txt = `Buy and Sell Digital Currency Here.`;
+
+      let i = 0;
+
+      const intervalId = setInterval(function () {
+        outputH1.innerHTML += txt[i];
+        i++;
+
+        if (i === txt.length) {
+          clearInterval(intervalId);
+        }
+      }, 150);
+    </script>
+  </body>
+</html>
