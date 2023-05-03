@@ -26,6 +26,12 @@
     <link rel="manifest" href="favicon/site.webmanifest" />
 
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css
+"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="media.css" />
     <title>Cryptocurrency Website</title>
   </head>
@@ -56,12 +62,13 @@
           <button>SEE WHITEPAPER</button>
         </div>
         <div class="img_data">
-          <img src="img/Crypto Earth.png" alt="" />
+          <img src="img/Crypto Earth 1.png" alt="Earth-Round" />
         </div>
       </section>
     </header>
+
     <!-- ASIDE -->
-    <aside>
+    <aside class="hidden">
       <h1>What is ICO Cryotis?</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro <br />
@@ -72,7 +79,7 @@
       </p>
       <img src="/img/grow line.png" alt="Grow" />
       <div class="time">
-        <span
+        <!-- <span
           >30 <br />
           <h6>DAYS</h6></span
         >
@@ -90,12 +97,13 @@
         <span
           >30 <br />
           <h6>SECONDS</h6></span
-        >
+        > -->
       </div>
       <button>BUY TOKEN NOW</button>
     </aside>
+
     <!-- APP -->
-    <div class="app">
+    <div class="app hidden">
       <div class="app_img_bx">
         <img src="/img/Crypto App.png" alt="" />
       </div>
@@ -110,10 +118,296 @@
         <img src="/img/All Store.png" alt="" />
       </div>
     </div>
+
     <!-- CRYPTO CONVERTER -->
-    <div class="converter">
+    <div class="converter hidden">
       <h1>Crypto Converter</h1>
+      <div class="cards">
+        <div class="card">
+          <div class="select">
+            <h4 id="coin_first">B</h4>
+            <div class="select1">
+              <h6>GIVE</h6>
+              <select id="coin" value="Bitcoin">
+                <option value="Bitcoin">Bitcoin</option>
+                <option value="Ethereum">Ethereum</option>
+                <option value="Tether">Tether</option>
+                <option value="BNB">BNB</option>
+              </select>
+            </div>
+          </div>
+          <div class="enter_bitcoin">
+            <input type="text" value="" id="crypto" />
+            <h6 id="btc">BTC</h6>
+          </div>
+          <p>Rate expressed in Digital Currency</p>
+        </div>
+
+        <div class="card2"><i class="bi bi-arrow-left-right"></i></div>
+        <div class="card">
+          <div class="select">
+            <h4 id="gov_coins">$</h4>
+            <div class="select1">
+              <h6>GET</h6>
+              <select id="coins" value="Dollar">
+                <option value="Dollar">Dollar</option>
+                <option value="Real">Real</option>
+                <option value="Euro">Euro</option>
+                <option value="Yuan">Yuan</option>
+              </select>
+            </div>
+          </div>
+          <div class="enter_bitcoin">
+            <input type="text" value="" id="gov" />
+            <h6 id="gov_coinss">USD</h6>
+          </div>
+          <p>Rate expressed in Government Currency</p>
+        </div>
+      </div>
     </div>
+
+    <!-- ROCKET DIV -->
+
+    <div class="rocket hidden">
+      <div class="rocket_content">
+        <h1>Cryotis Perfect Services That Works For You!</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ab
+          itaque asperiores nobis laborum similique nihil reprehenderit aliquid
+          aliquam labore ex eligendi ratione, perspiciatis quam pariatur
+          corrupti! Iste, qui at libero incidunt doloremque earum rerum.
+        </p>
+        <ul>
+          <li>Mobile App:</li>
+          <li>Exchange Services:</li>
+          <li>Insurance Protection:</li>
+          <li>Credit Card User:</li>
+          <li>Secure Storage:</li>
+          <li>Multycurrency Wallet:</li>
+        </ul>
+        <button>DISCOVER NOW</button>
+      </div>
+      <div class="rocket_img">
+        <img src="/img/Crypto Rocket.png" alt="rocket" />
+      </div>
+    </div>
+
+    <!-- ROAD MAP -->
+    <div class="road_map hidden">
+      <h1>Crypto Road Map</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+        ipsa molestias? Voluptatibus, dignissimos veritatis vero cupiditate
+        fugit fuga odit quasi obcaecati.
+      </p>
+      <div class="map">
+        <div class="card">
+          <div class="title">
+            <h6>26 APR 2023</h6>
+            <h4>Stats Center Beta</h4>
+          </div>
+          <h5></h5>
+          <h2></h2>
+        </div>
+        <div class="card">
+          <div class="title">
+            <h6>26 APR 2023</h6>
+            <h4>Stats Center Beta</h4>
+          </div>
+          <h5></h5>
+          <h2></h2>
+        </div>
+        <div class="card">
+          <div class="title">
+            <h6>26 APR 2023</h6>
+            <h4>Stats Center Beta</h4>
+          </div>
+          <h5></h5>
+          <h2></h2>
+        </div>
+        <div class="card">
+          <div class="title">
+            <h6>26 APR 2023</h6>
+            <h4>Stats Center Beta</h4>
+          </div>
+          <h5></h5>
+          <h2></h2>
+        </div>
+        <div class="card">
+          <div class="title">
+            <h6>26 APR 2023</h6>
+            <h4>Stats Center Beta</h4>
+          </div>
+          <h5></h5>
+          <h2></h2>
+        </div>
+        <div class="card">
+          <div class="title">
+            <h6>26 APR 2023</h6>
+            <h4>Stats Center Beta</h4>
+          </div>
+          <h5></h5>
+          <h2></h2>
+        </div>
+        <div class="card">
+          <div class="title">
+            <h6>26 APR 2023</h6>
+            <h4>Stats Center Beta</h4>
+          </div>
+          <h5></h5>
+          <h2></h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- ASTRONAUTA -->
+    <div class="man hidden">
+      <div class="man_img">
+        <img src="img/Crypto Man.png" alt="" />
+      </div>
+      <div class="man_content">
+        <h1>
+          Review From Our Clients About <br />
+          Cryotis ICO
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magnam
+          nesciunt ducimus, laboriosam sed tenetur, harum necessitatibus vitae
+          vero dolorum rerum est voluptatem, eaque sapiente! Cumque ut eveniet,
+          quis in iure suscipit! Deserunt, sint saepe.
+        </p>
+        <div class="client_cole">
+          <div class="cont">
+            <div class="star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <h4>Aline Delz</h4>
+            <p>TRADER</p>
+          </div>
+          <div class="img">
+            <img src="img/user.jpg" alt="client" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEWS SECT -->
+
+    <div class="news hidden">
+      <h1>Crypto Latest News</h1>
+      <div class="cards">
+        <div class="card">
+          <h6>BITCOIN</h6>
+          <h2>
+            Crypto Really(Really) <br />
+            Wants a Bitoin ETF
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            maxime est quo atque facere aspernatur minus consequatur, expedita
+            ex fugiat tenetur laudantium quaerat consectetur. Corrupti?
+          </p>
+          <h5>AUG, 23 2022</h5>
+        </div>
+        <div class="card">
+          <h6>CRYPTO</h6>
+          <h2>Crypto Stock Exchange Operator Pleads</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            maxime est quo atque facere aspernatur minus consequatur, expedita
+            ex fugiat tenetur laudantium quaerat consectetur. Corrupti?
+          </p>
+          <h5>AUG, 23 2022</h5>
+        </div>
+        <div class="card">
+          <h6>BLOCKCHAIN</h6>
+          <h2>Don't Let The Crypto Circus Fool's You</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            maxime est quo atque facere aspernatur minus consequatur, expedita
+            ex fugiat tenetur laudantium quaerat consectetur. Corrupti?
+          </p>
+          <h5>AUG, 23 2022</h5>
+        </div>
+      </div>
+      <div class="btn">
+        <button>READ MORE</button>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div id="footer-content">
+        <div id="footer-contacts">
+          <h1>Crypto</h1>
+          <p>It's all about your dreams.</p>
+
+          <div id="footer-social-media">
+            <a href="" class="footer-link" id="instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="" class="footer-link" id="facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="" class="footer-link" id="linkedin">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <h3>Blog</h3>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Tech</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Roadmap</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Token</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <h3>Products</h3>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Converter</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Exchange</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">App</a>
+          </li>
+        </ul>
+
+        <div id="footer-subscribe">
+          <h3>Subscribe</h3>
+
+          <p>Enter your e-mail to get notified about our news solution.</p>
+          <div id="input-group">
+            <input type="email" id="email" />
+            <button>
+              <i class="bi bi-envelope-at"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer-copy">
+        &#169
+        2023 All Rights Reserved.
+      </div>
+    </footer>
+    <!-- Footer -->
     <script src="app.js"></script>
 
     <script>
