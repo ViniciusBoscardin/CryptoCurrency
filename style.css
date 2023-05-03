@@ -846,6 +846,11 @@ filter: blur(0);
 transform: translateX(0);
 }
 
+.scale:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-in-out;
+}
+
 /* FOOTER */
 
 footer {
@@ -858,7 +863,7 @@ footer {
 }
 
 #footer-content {
-  background-color: #111010;
+  background-color: #0b0b0b;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem 3.5rem;
@@ -885,6 +890,10 @@ footer {
   transition: all 0.3s;
 }
 
+#footer-social-media .footer-link i {
+ font-size: 1.25rem;
+}
+
 #footer-social-media .footer-link:hover {
  opacity: 0.6;
 }
@@ -902,6 +911,70 @@ footer {
   background-color:#02026f;
 }
 
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.footer-list .footer-link {
+ color: rgb(95, 95, 95);
+ transition: all 0.3s;
+}
+
+.footer-list .footer-link:hover {
+color: #6d2675;
+}
+
+#footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#footer-subscribe p {
+ color: rgb(95, 95, 95);
+}
+
+#input-group {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+#input-group input {
+  all: unset;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+#input-group button {
+  background:linear-gradient(0deg, #d0498d, #6d2675);
+  border: none;
+  color: var(--color-1);
+  padding: 0px 1.25rem;
+  font-size: 1.125rem;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+ transition: all 0.3s;
+
+}
+
+#input-group button:hover {
+  background:linear-gradient(0deg,#6d2675,  #d0498d);
+}
+
+#footer-copy {
+  display: flex;
+  justify-content: center;
+  background-color: #0b0b0b;
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+}
 
 
 
