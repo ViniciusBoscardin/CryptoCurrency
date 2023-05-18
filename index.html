@@ -122,17 +122,17 @@ https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css
     <!-- CRYPTO CONVERTER -->
     <div class="converter hidden">
       <h1>Crypto Converter</h1>
-      <div class="cards">
-        <div class="card">
+      <div class="cards" data-js="currencies-container">
+        <div class="card" >
           <div class="select">
             <h4 id="coin_first">B</h4>
             <div class="select1">
               <h6>GIVE</h6>
-              <select id="coin" value="Bitcoin">
-                <option value="Bitcoin">Bitcoin</option>
+              <select data-js="currency-one" id="coin" value="Bitcoin">
+                <!-- <option value="Bitcoin">Bitcoin</option>
                 <option value="Ethereum">Ethereum</option>
                 <option value="Tether">Tether</option>
-                <option value="BNB">BNB</option>
+                <option value="BNB">BNB</option> -->
               </select>
             </div>
           </div>
@@ -149,11 +149,11 @@ https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css
             <h4 id="gov_coins">$</h4>
             <div class="select1">
               <h6>GET</h6>
-              <select id="coins" value="Dollar">
-                <option value="Dollar">Dollar</option>
+              <select data-js="currency-two" id="coins" value="Dollar">
+                <!-- <option value="Dollar">Dollar</option>
                 <option value="Real">Real</option>
                 <option value="Euro">Euro</option>
-                <option value="Yuan">Yuan</option>
+                <option value="Yuan">Yuan</option> -->
               </select>
             </div>
           </div>
